@@ -4,10 +4,10 @@
 Designed a basic analog signal-conditioning circuit using a first-order RC low-pass filter and a non-inverting op-amp amplifier.
 
 ## Schematic
-![Schematic](ac-response-plot.png)
+![Schematic](signal-conditioning-schematic.png)
 
 ## Simulation Result
-![AC Response](signal-conditioning-schematic.png)
+![AC Response](ac-response-plot.png)
 ## Tools
 - LibrePCB
 - Ngspice
