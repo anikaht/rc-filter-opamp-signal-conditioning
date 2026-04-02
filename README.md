@@ -61,7 +61,7 @@ Such circuits are commonly used in:
 - `signal-conditioning-schematic.png` → circuit diagram  
 - `ac-response-plot.png` → frequency response plot  
 - `rc_opamp.cir` → Ngspice simulation file  
-- `schematic.pdf` → schematic export  
+- `signal-conditioning-schematic.pdf` → schematic export  
 
 ---
 
