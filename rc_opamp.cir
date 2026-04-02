@@ -1,0 +1,19 @@
+* RC Filter + Non-Inverting Amplifier
+
+Vin in 0 AC 1
+
+R1 in vfilt 10k
+C1 vfilt 0 0.1u
+
+* Op-amp model (ideal)
+E1 out 0 vfilt vminus 1e6
+
+R2 out vminus 100k
+R3 vminus 0 10k
+
+* Power (not needed for ideal op-amp)
+
+.ac dec 100 1 10000
+.print ac v(out)
+
+.end
